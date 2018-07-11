@@ -8,4 +8,11 @@ end
 
 tax_included=[]
 
-cart_item_prices
+num=0
+counting=1
+cart_item_prices.each do|tax_price|
+tax_included[num]=cart_item_prices[num]*1.17
+puts"Item #{counting}: #{tax_price}."
+num+=1
+count+=1
+end

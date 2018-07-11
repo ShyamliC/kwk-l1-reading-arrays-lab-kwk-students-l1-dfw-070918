@@ -42,5 +42,5 @@ end
 
 puts "Final price with tax #{final_total}"
 
-tax amount
-puts "Tax added #{final_total-subtotal}"
+tax_amount=final_total-subtotal
+puts "Tax added #{tax_amount}"

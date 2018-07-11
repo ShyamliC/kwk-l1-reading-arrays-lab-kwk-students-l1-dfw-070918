@@ -40,7 +40,7 @@ tax_included.each do|final_total|
 taxsum+=final_total
 end
 
-puts "Final price with tax #{final_total}"
+puts "Final price with tax #{taxsum}"
 
-tax_amount=final_total-subtotal
+tax_amount=taxsum-sum
 puts "Tax added #{tax_amount}"

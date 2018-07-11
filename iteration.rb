@@ -33,7 +33,7 @@ cart_item_prices.each do|subtotal|
 sum+=subtotal
 end
 
-puts "Final price without tax: #{sutotal}"
+puts "Final price without tax: #{sum}"
 
 taxsum=0
 tax_included.each do|final_total|

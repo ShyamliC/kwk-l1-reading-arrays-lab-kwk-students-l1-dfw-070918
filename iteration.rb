@@ -9,15 +9,15 @@ end
 tax_included=[]
 
 num=0
-count=1
+count2=1
 cart_item_prices.each do|tax_price|
 tax_included[num]=((tax_price*1.17).round(2))
 puts"Item #{counting}: #{tax_included[num]}."
 num+=1
-count+=1
+count2+=1
 end
 
-count2=1;
+count3=1
 expensive_array=[]
 cart_item_prices.each do|pricey|
 if(pricey>=15.00)
@@ -25,5 +25,5 @@ if(pricey>=15.00)
   puts "Item #{counting2}: #{pricey}."
 else
 end
-count2+=1
+count3+=1
 end

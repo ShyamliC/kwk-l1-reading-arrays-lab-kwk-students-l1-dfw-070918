@@ -7,3 +7,5 @@ count +=1
 end 
 
 tax_included=[]
+
+cart_item_prices

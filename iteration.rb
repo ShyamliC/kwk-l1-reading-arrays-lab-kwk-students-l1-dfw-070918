@@ -27,3 +27,12 @@ if(pricey>=15.00)
 else
 end
 end
+
+final_without_tax=[]
+sum=0
+cart_item_prices.each do|final_price1|
+sum+=final_price1
+end
+
+puts "Final price without tax: #{sum}"
+

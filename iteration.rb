@@ -21,7 +21,7 @@ counting2=1;
 expensive_array=[]
 cart_item_prices.each do|pricey|
 if(pricey>=15.00)
-  expensive_array[]<<(pricey)
+  expensive_array[].push(pricey)
   puts "Item #{counting2}: #{pricey}."
 else
 end

@@ -6,4 +6,4 @@ puts "Item #{count}: #{price}"
 count +=1
 end 
 
-array_name=[]
+tax_included=[]

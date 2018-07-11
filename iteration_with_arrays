@@ -4,4 +4,4 @@ sports.each do|athletic|
 puts  athletic
 end
 
-array desserts=["brownies","cookies","macaroons","cakes","pies","tiramisu","candy"]
+array desserts=["brownies","cookies","macaroons","cakes","pies","ice cream","chocolate"]

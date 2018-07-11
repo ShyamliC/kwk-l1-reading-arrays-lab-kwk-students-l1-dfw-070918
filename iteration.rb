@@ -12,7 +12,7 @@ num=0
 count2=1
 cart_item_prices.each do|tax_price|
 tax_included[num]=((tax_price*1.17).round(2))
-puts"Item #{counting}: #{tax_included[num]}."
+puts"Item #{count2}: #{tax_included[num]}."
 num+=1
 count2+=1
 end

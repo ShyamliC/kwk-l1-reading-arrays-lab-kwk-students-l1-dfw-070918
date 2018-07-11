@@ -22,7 +22,7 @@ expensive_array=[]
 cart_item_prices.each do|pricey|
 if(pricey>=15.00)
   expensive_array.push(pricey)
-  puts "Item #{counting2}: #{pricey}."
+  puts "Item #{count3}: #{pricey}."
 else
 end
 count3+=1

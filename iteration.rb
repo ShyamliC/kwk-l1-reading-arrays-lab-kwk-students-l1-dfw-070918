@@ -25,5 +25,5 @@ if(pricey>=15.00)
   puts "Item #{counting2}: #{pricey}."
 else
 end
-count+=1
+counting2+=1
 end

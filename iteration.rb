@@ -23,7 +23,7 @@ cart_item_prices.each do|pricey|
 if(pricey>=15.00)
   expensive_array.push(pricey)
   puts "Item #{count3}: #{pricey}."
+  count3+=1
 else
 end
-count3+=1
 end

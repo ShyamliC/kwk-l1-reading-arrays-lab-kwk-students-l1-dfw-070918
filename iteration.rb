@@ -17,11 +17,12 @@ num+=1
 count+=1
 end
 
-counting=1;
+counting2=1;
 expensive_array=[]
 cart_item_prices.each do|pricey|
 if(pricey>=15.00)
-  puts "Item #{counting}: #{pricey}"
+  expensive_array[]<<(pricey)
+  puts "Item #{counting2}: #{pricey}."
 else
 end
 count+=1

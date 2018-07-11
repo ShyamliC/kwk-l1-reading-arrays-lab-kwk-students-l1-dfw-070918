@@ -42,5 +42,5 @@ end
 
 puts "Final price with tax #{taxsum}"
 
-tax_amount=taxsum-sum
+tax_amount=(taxsum-sum).round(2)
 puts "Tax added #{tax_amount}"

@@ -1,4 +1,4 @@
-sports=["basketball","baseball","football","volleyball"."soccer"]
+sports=["basketball","baseball","football","volleyball","soccer"]
 
 sports.each do|athletic|
 puts  athletic

@@ -17,7 +17,7 @@ num+=1
 count+=1
 end
 
-counting2=1;
+count2=1;
 expensive_array=[]
 cart_item_prices.each do|pricey|
 if(pricey>=15.00)

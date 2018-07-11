@@ -16,3 +16,13 @@ puts"Item #{counting}: #{tax_included[num]}."
 num+=1
 count+=1
 end
+
+counting=1;
+expensive_array=[]
+cart_item_prices.each do|pricey|
+if(pricey>=15.00)
+  puts "Item #{counting}: #{pricey}"
+else
+end
+count+=1
+end

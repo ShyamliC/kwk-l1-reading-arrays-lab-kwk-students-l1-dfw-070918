@@ -28,11 +28,18 @@ else
 end
 end
 
-final_without_tax=[]
 sum=0
-cart_item_prices.each do|final_price1|
-sum+=final_price1
+cart_item_prices.each do|subtotal|
+sum+=subtotal
 end
 
-puts "Final price without tax: #{sum}"
+puts "Final price without tax: #{sutotal}"
 
+taxsum=0
+tax_included.each do|final_total|
+taxsum+=final_total
+end
+
+puts "Final price with tax #{final_total}"
+
+puts "Tax added #{final_total-subtotal}"
